@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- link to  style -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body data-theme="light">
+    <!-- section for the calculator -->
+    <main>
+        <section id="wrapper">
+            <div class="header content theme-switcher">
+                <h2 class="header-cal">calc</h2>
+                <div class="theme-container">
+                    <h3 class="theme-cal">THEME</h3>
+                    <button class="theme"></button>
+                </div>
+            </div>
+
+            <!-- this is card to display number -->
+
+            <section id="value-cal-card">
+                <div class="class-container">
+                    <div class="display-1 cal-number ">0</div>
+                </div>
+                <div class="display-2  cal-number">0</div>
+                <div class="temp-result cal-number">0</div>
+            </section>
+
+            <section id="nuber-card">
+                <!-- first container -->
+                <div id="first-figure">
+                    <button class="cal-7 number">
+                        <span>7</span>
+                    </button>
+                    <button class="cal-8 number">
+                        <span>8</span>
+                    </button>
+                    <button class="cal-9 number">
+                        <span>9</span>
+                    </button>
+                    <button class="cal-del last-clear-all">
+                        <span>Del</span>
+                    </button>
+                </div>
+
+
+                <div id="second-figure">
+                    <button class="cal-4 number">
+                        <span>4</span>
+                    </button>
+                    <button class="cal-5 number">
+                        <span>5</span>
+                    </button>
+                    <button class="cal-6 number">
+                        <span>6</span>
+                    </button>
+                    <button class="cal-plus operation">
+                        <span>+</span>
+                    </button>
+                </div>
+
+                <div id="third-figure">
+                    <button class="cal-1 number">
+                        <span>1</span>
+                    </button>
+                    <button class="cal-2 number">
+                        <span>2</span>
+                    </button>
+                    <button class="cal-3 number">
+                        <span>3</span>
+                    </button>
+                    <button class="cal-minus operation">
+                        <span>-</span>
+                    </button>
+                </div>
+
+                <div id="first-figure">
+                    <button class="cal-dot number">
+                        <span>.</span>
+                    </button>
+                    <button class="cal-zore number">
+                        <span>0</span>
+                    </button>
+                    <button class="cal-slash operation">
+                        <span>/</span>
+                    </button>
+                    <button class="cal-muilt operation">
+                        <span>X</span>
+                    </button>
+                </div>
+
+                <div id="last-figure-button">
+                    <button class="cal-reset all-clear">
+                        <span>Reset</span>
+                    </button>
+                    <button class="cal-equal equal-sign">
+                        <span>=</span>
+                    </button>
+                </div>
+
+            </section>
+        </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

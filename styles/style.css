@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-1: #3A4663;
+    --color-2: #000000;
+    --color-3: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-3);
+    color: #000;
+}
+
+.dark-mode {
+    background-color: var(--color-1);
+    color: var(--color-3);
+}
+
+#wrapper {
+    width: 30rem;
+    height: 10vh;
+    max-width: 100%;
+    padding: 0 1rem;
+    margin: 20rem auto;
+}
+
+.header {
+    display: flex;
+    width: 37rem;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.header-cal {
+    font-family: Spartan;
+    font-size: 32px;
+    padding: 0 .5rem;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.theme-cal {
+    font-family: Spartan;
+    padding: 1rem 2rem;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.theme {
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.theme-container {
+    display: flex;
+    padding-right: 2rem;
+    justify-content: space-around;
+}
+
+#value-cal-card {
+    height: 128px;
+    width: 40rem;
+    max-width: 100%;
+    border-radius: 10px;
+    background-color: #181F33;
+}
+
+.class-container {
+    display: flex;
+    padding-right: 2rem;
+    padding-top: 4%;
+    justify-content: flex-end;
+}
+
+.display-2 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    opacity: .4;
+}
+
+.temp-result {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    opacity: .4;
+}
+
+.cal-number {
+    color: #FFFFFF;
+    font-family: Spartan;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+#nuber-card {
+    height: 480px;
+    margin-top: 2rem;
+    width: 40rem;
+    max-width: 100%;
+    border-radius: 10px;
+    background-color: #242D44;
+}
+
+
+/* first Figure */
+
+#first-figure {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
+.cal-7 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-8 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-9 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-del {
+    background: #A2B2E1;
+    box-shadow: inset 0px -4px 0px #414E73;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+
+/* second fagures */
+
+#second-figure {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
+.cal-4 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-5 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-6 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 4rem;
+    width: 6.3rem;
+}
+
+.cal-plus {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+
+/* thired figures */
+
+#third-figure {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
+.cal-1 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-2 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-3 {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-minus {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+#forth-figure {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
+.cal-dot {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-zore {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-slash {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+.cal-muilt {
+    background: #EAE3DC;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 10px;
+    height: 64px;
+    width: 101px;
+}
+
+#last-figure-button {
+    display: flex;
+    align-items: center;
+    padding: 1rem .5rem;
+    justify-content: space-between;
+}
+
+.cal-reset {
+    background: #A2B2E1;
+    box-shadow: inset 0px -4px 0px #414E73;
+    border-radius: 10px;
+    height: 64px;
+    width: 227px;
+}
+
+.cal-equal {
+    background: #F96B5B;
+    box-shadow: inset 0px -4px 0px #93261A;
+    border-radius: 10px;
+    height: 64px;
+    width: 227px;
+}
