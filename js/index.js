@@ -125,7 +125,6 @@ function clickButtonElement(key) {
     })
 }
 
-
 function clickOperation(key) {
     operationEl.forEach(button => {
         if (button.innerText === key) {
@@ -137,8 +136,6 @@ function clickOperation(key) {
 function clickEqual() {
     equalEl.click()
 }
-
-
 
 themButtom.addEventListener('click', () => {
     bodyElement.classList.toggle('dark-mode')
